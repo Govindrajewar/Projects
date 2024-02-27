@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+
+    <title>Battleship-Game</title>
+
+
+    <style>
+        #guess-count, #hit-count{
+             font-size: 20px;
+             color: red;
+             font-weight: bold;
+             text-align: center;
+             margin-top: 120px;
+             margin-bottom: 120px;
+        }
+
+        .start-game{
+            background-color: aqua;
+            /* height: 100px; */
+            width: 200px;
+            padding: 10px;
+            border: 1 px solid black;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <!-- <h1>Battleship-Game.html</h1> -->
+    <div>   There are five positions available <br>
+            Please Enter value between 1 to 5.
+    </div>
+    <div>
+        Enter "0" to stop playing.
+    </div>
+
+    <button class="start-game" onclick="checkGuess();"> Start Game! </button>
+
+    <div id="guess-count"> Guess Count :
+        <span id="gsCount"> 0 </span>
+    </div>
+    <div id="hit-count"> Hit Count :
+        <span id="htCount"> 0 </span>
+    </div>
+
+</body>
+</html>
