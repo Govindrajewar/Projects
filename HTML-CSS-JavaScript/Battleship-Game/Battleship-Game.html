@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Battleship-Game</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/d2ba441d43.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Battleship Game</h1>
+
+    <!-- Board -->
+    <div id="board">
+        <div id="div-container">
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+        </div>
+
+        <div id="div-container">
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+        </div>
+
+        <div id="div-container">
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+        </div>
+
+        <div id="div-container">
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+        </div>
+
+        <div id="div-container">
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+            <div class="div-item"></div>
+        </div>
+    </div>
+
+
+    <p id="successful-message"></p><br>
+    <p id="reset-count"></p><br>
+    <!-- Counters -->
+    <div class="count-board">
+        <div id="guess-count"> Guess Count :
+            <span id="gsCount"> 0 </span>
+        </div>
+        <div id="hit-count"> Hit Count :
+            <span id="htCount"> 0 </span>
+        </div>
+        <div>
+            <input type="button" value="Reset Game" onClick="resetGame()">
+        </div>
+    </div>
+
+
+    <!-- Manipulation Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
