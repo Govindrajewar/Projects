@@ -25,9 +25,7 @@ body {
     font-size: 35px;
 }
 
-#guess-count,
-#hit-count,
-input {
+#guess-count, #hit-count, input {
     height: fit-content;
     width: 150px;
     padding: 10px;
@@ -44,15 +42,11 @@ input {
 }
 
 .count-board {
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
 }
 
-#successful-message,
-#reset-count {
+#successful-message, #reset-count {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
