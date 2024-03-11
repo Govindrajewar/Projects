@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="header-counter">
+            <div class="header">ROCK <br> PAPER <br> SCISSORS </div>
+            <div class="counter">
+                <div class="score-bar">COMPUTER <br> SCORE <br>
+                    <div class="score" id="computer-score">0</div>
+                </div>
+                <div class="score-bar">YOUR <br> SCORE <br>
+                    <div class="score" id="player-score">0</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-game">
+            <div class="game">▽</div>
+            <div onclick="displayResult(1)" class="symbol" id="rock">✊</div>
+            <div onclick="displayResult(2)" class="symbol" id="scissor">✌</div>
+            <div onclick="displayResult(3)" class="symbol" id="paper">✋</div>
+        </div>
+
+        <div class="display-result">
+            <div class="selection">
+                <div class="user">YOU PICKED</div>
+                <div class="result-icon"></div>
+            </div>
+
+            <div id="result">
+                Game Result
+            </div>
+
+            <div class="selection">
+                <div class="user">PC PICKED</div>
+                <div class="result-icon"></div>
+            </div>
+        </div>
+
+
+        <div class="replay-btn" onclick="hideResult();">REPLAY</div>
+
+
+        <div>
+            <div class="hide-btn"><button onclick="hideRules()">X</button></div>
+            <div onclick="showRules()" class="rules-btn">RULES</div>
+            <div onclick="nextScreen()" class="next-btn">NEXT</div>
+        </div>
+
+
+        <div class="game-rules">
+            <div id="h2">Game Rules</div>
+            <ul type=square>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you'll count off "rock, paper, scissors, shoot" or just "rock, paper,
+                    scissors."</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+
+
+        <!-- Next button Result -->
+        <div class="next">
+            <div class="trophy">🏆</div>
+            <div class="hurray">HURRAY!!</div>
+            <div class="message">YOU WON THE GAME</div>
+        </div>
+
+        <!-- Reset Score button -->
+        <div id="reset-btn" type="button" onclick="resetScore();">Reset Score</div>
+
+    </div>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
