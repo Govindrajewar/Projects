@@ -12,7 +12,8 @@ body, .root{
 .slide1,
 .slide2,
 .slide3,
-.slide4
+.slide4,
+.slide5
 {
     height:110vh;
     width: 100%;
@@ -318,4 +319,58 @@ li{
     left: 40%;
 }
 
+
+
+/* slide 5 */
+.slide5{
+    height: 100vh;
+    background-color: #f64b3c;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.slide5>.statistics{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide5 .round{
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide5 .round > .number{
+    font-size: 80px;
+}
+
+.slide5 .round > .type{
+    font-size: 30px;
+}
+
+.slide5 > .header {
+    font-size: 70px;
+    margin: 30px;
+}
+
+.slide5>.data{
+    font-size: 25px;
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
 
