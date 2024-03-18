@@ -9,7 +9,8 @@ body, .root{
 }
 
 
-.slide1
+.slide1,
+.slide2
 {
     height:110vh;
     width: 100%;
@@ -85,3 +86,93 @@ li{
     width: 150px;
     text-align: center;
 }
+
+
+/* slide 2 */
+.slide2-data>.images #onion{
+    position: absolute;
+    left: 180px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #fries{
+    position: absolute;
+    left: -250px;
+    margin: 250px;
+}
+
+.slide2-data>.images #burger{
+    position: absolute;
+    right: 80px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #mushroom{
+    position: absolute;
+    margin-top: 600px;
+    right: 500px;
+}
+
+.slide2-data>.images #leaf{
+    position: absolute;
+    left: 500px;
+    margin-top: 600px;
+}
+
+.slide2-data>.images #capsicum{
+    position: absolute;
+    right: 50px;
+    margin-top: 450px;
+}
+
+.slide2-data{
+    background-color: #f6eedf;
+    color: #f64b3c;
+    height:110vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+.slide2-data>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide2-data>.data{
+    font-size: 25px;
+    margin: 50px;
+    text-align: center;
+}
+
+.slide2-data>.chef-profile{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 70%;
+}
+
+.slide2-data img{
+    border-radius: 50%;
+}
+
+.chef{
+    text-align: center;
+}
+
+.chef-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chef-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
