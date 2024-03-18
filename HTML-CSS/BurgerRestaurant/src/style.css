@@ -10,7 +10,9 @@ body, .root{
 
 
 .slide1,
-.slide2
+.slide2,
+.slide3,
+.slide4
 {
     height:110vh;
     width: 100%;
@@ -89,42 +91,6 @@ li{
 
 
 /* slide 2 */
-.slide2-data>.images #onion{
-    position: absolute;
-    left: 180px;
-    margin-top: 80px;
-}
-
-.slide2-data>.images #fries{
-    position: absolute;
-    left: -250px;
-    margin: 250px;
-}
-
-.slide2-data>.images #burger{
-    position: absolute;
-    right: 80px;
-    margin-top: 80px;
-}
-
-.slide2-data>.images #mushroom{
-    position: absolute;
-    margin-top: 600px;
-    right: 500px;
-}
-
-.slide2-data>.images #leaf{
-    position: absolute;
-    left: 500px;
-    margin-top: 600px;
-}
-
-.slide2-data>.images #capsicum{
-    position: absolute;
-    right: 50px;
-    margin-top: 450px;
-}
-
 .slide2-data{
     background-color: #f6eedf;
     color: #f64b3c;
@@ -173,6 +139,183 @@ li{
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+
+/* slide Images */
+.slide2-data>.images #onion{
+    position: absolute;
+    left: 180px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #fries{
+    position: absolute;
+    left: -250px;
+    margin: 250px;
+}
+
+.slide2-data>.images #burger{
+    position: absolute;
+    right: 80px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #mushroom{
+    position: absolute;
+    margin-top: 600px;
+    right: 500px;
+}
+
+.slide2-data>.images #leaf{
+    position: absolute;
+    left: 500px;
+    margin-top: 600px;
+}
+
+.slide2-data>.images #capsicum{
+    position: absolute;
+    right: 50px;
+    margin-top: 450px;
+}
+
+
+
+/* slide 3 */
+.slide3{
+    background-color: #f64b3c;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.slide3>.left{
+    width: 50%;
+    text-align: center;
+}
+
+.slide3>.right{
+    width: 50%;
+    height: 40%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide3>.left>img{
+    border-radius: 50%;
+}
+
+.slide3>.right>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide3>.right>.data{
+    font-size: 25px;
+}
+
+.slide3>.right>.order-btn{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: white;
+    color: #f64b3c;
+}
+
+
+
+/* slide 4 */
+.slide4{
+    background-color: #f6eedf;
+    color: #f64b3c;
+
+    display: flex;
+    align-items: center;
+}
+
+.slide4>.right{
+    width: 50%;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.slide4>.left{
+    width: 50%;
+    height: 40%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.slide4>.right>img{
+    border-radius: 50%;
+}
+
+.slide4>.left>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide4>.left>.data{
+    font-size: 25px;
+}
+
+.slide4>.left>.order-btn{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #f64b3c;
+    color:#f6eedf;
+}
+
+
+/* slide 4 Images */
+.slide4>.images #capsicum{
+    position: absolute;
+    margin-top: -225px;
+}
+
+.slide4>.images #onion{
+    position: absolute;
+    left: 225px;
+    margin-top: 250px;
+}
+
+.slide4>.images #leaf{
+    position: absolute;
+    right: 50px;
+    margin-top: -250px;
+}
+
+.slide4>.images #fries{
+    position: absolute;
+    right: 50px;
+    margin-top: 200px;
+}
+
+.slide4>.images #burger{
+    position: absolute;
+    left: 40%;
+    margin-top: -350px;
+}
+
+.slide4>.images #mushroom{
+    position: absolute;
+    margin-top: 225px;
+    left: 40%;
 }
 
 
