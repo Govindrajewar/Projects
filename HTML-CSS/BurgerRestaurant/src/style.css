@@ -1,0 +1,87 @@
+body, .root{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.root{
+    background-color: aqua;
+}
+
+
+.slide1
+{
+    height:110vh;
+    width: 100%;
+}
+
+
+/* Navigation Bar & Brand logo */
+.brand-logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+.navigation-bar{
+    color: white;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(00,00,00,60%);
+}
+
+.menu{
+    display: flex;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+li{
+    margin: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* slide 1 */
+.slide1{
+    background-image: url('assets/slide1-bg-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide1-data{
+    width: 50vw;
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+}
+
+.slide1-data>.header{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.slide1-data>.data{
+    color: white;
+    font-size: 30px;
+}
+
+.slide1-data>.order-btn{
+    background-color: #f64b3c;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
