@@ -1,0 +1,681 @@
+body, .root{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6,
+.slide7,
+.slide8,
+.footer
+{
+    height:110vh;
+    width: 100%;
+}
+
+
+/* Navigation Bar & Brand logo */
+.brand-logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+.navigation-bar{
+    color: white;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(00,00,00,60%);
+}
+
+.menu{
+    display: flex;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+li{
+    margin: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* slide 1 */
+.slide1{
+    background-image: url('assets/slide1-bg-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide1-data{
+    width: 50vw;
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+}
+
+.slide1-data>.header{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.slide1-data>.data{
+    color: white;
+    font-size: 30px;
+}
+
+.slide1-data>.order-btn{
+    background-color: #f64b3c;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+/* slide 2 */
+.slide2-data{
+    background-color: #f6eedf;
+    color: #f64b3c;
+    height:110vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+.slide2-data>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide2-data>.data{
+    font-size: 25px;
+    margin: 50px;
+    text-align: center;
+}
+
+.slide2-data>.chef-profile{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 70%;
+}
+
+.slide2-data img{
+    border-radius: 50%;
+}
+
+.chef{
+    text-align: center;
+}
+
+.chef-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chef-title{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+/* slide Images */
+.slide2-data>.images #onion{
+    position: absolute;
+    left: 180px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #fries{
+    position: absolute;
+    left: -250px;
+    margin: 250px;
+}
+
+.slide2-data>.images #burger{
+    position: absolute;
+    right: 80px;
+    margin-top: 80px;
+}
+
+.slide2-data>.images #mushroom{
+    position: absolute;
+    margin-top: 600px;
+    right: 500px;
+}
+
+.slide2-data>.images #leaf{
+    position: absolute;
+    left: 500px;
+    margin-top: 600px;
+}
+
+.slide2-data>.images #capsicum{
+    position: absolute;
+    right: 50px;
+    margin-top: 450px;
+}
+
+
+
+/* slide 3 */
+.slide3{
+    background-color: #f64b3c;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.slide3>.left{
+    width: 50%;
+    text-align: center;
+}
+
+.slide3>.right{
+    width: 50%;
+    height: 40%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide3>.left>img{
+    border-radius: 50%;
+}
+
+.slide3>.right>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide3>.right>.data{
+    font-size: 25px;
+}
+
+.slide3>.right>.order-btn{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: white;
+    color: #f64b3c;
+}
+
+
+
+/* slide 4 */
+.slide4{
+    background-color: #f6eedf;
+    color: #f64b3c;
+
+    display: flex;
+    align-items: center;
+}
+
+.slide4>.right{
+    width: 50%;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.slide4>.left{
+    width: 50%;
+    height: 40%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.slide4>.right>img{
+    border-radius: 50%;
+}
+
+.slide4>.left>.header{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.slide4>.left>.data{
+    font-size: 25px;
+}
+
+.slide4>.left>.order-btn{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #f64b3c;
+    color:#f6eedf;
+}
+
+
+/* slide 4 Images */
+.slide4>.images #capsicum{
+    position: absolute;
+    margin-top: -225px;
+}
+
+.slide4>.images #onion{
+    position: absolute;
+    left: 225px;
+    margin-top: 250px;
+}
+
+.slide4>.images #leaf{
+    position: absolute;
+    right: 50px;
+    margin-top: -250px;
+}
+
+.slide4>.images #fries{
+    position: absolute;
+    right: 50px;
+    margin-top: 200px;
+}
+
+.slide4>.images #burger{
+    position: absolute;
+    left: 40%;
+    margin-top: -350px;
+}
+
+.slide4>.images #mushroom{
+    position: absolute;
+    margin-top: 225px;
+    left: 40%;
+}
+
+
+
+/* slide 5 */
+.slide5{
+    height: 100vh;
+    background-color: #f64b3c;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.slide5>.statistics{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide5 .round{
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide5 .round > .number{
+    font-size: 80px;
+}
+
+.slide5 .round > .type{
+    font-size: 30px;
+}
+
+.slide5 > .header {
+    font-size: 70px;
+    margin: 30px;
+}
+
+.slide5>.data{
+    font-size: 25px;
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+/* slide 6 */
+.slide6{
+    height: 100vh;
+    background-color: #f6eedf;
+    color: #f64b3c;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.slide6 .header{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 70px 0px 120px;
+}
+
+.slide6 .cards{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.card-item{
+    background-color: #FFFFFF;
+    padding: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card-item .heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0px 10px;
+}
+
+.card-item .price{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0px 10px;
+}
+
+
+.card-item .data{
+    font-size: 16px;
+    margin: 10px 0px 10px;
+}
+
+
+.card-item .order-btn{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f64b3c;
+    color: #f6eedf;
+}
+
+.card-item img{
+    height: 80px;
+    margin: 10px;
+}
+
+
+/* slide 6 Images */
+.slide6>.images #capsicum{
+    position: absolute;
+    margin-top: 175px;
+    left: 50px;
+}
+
+.slide6>.images #onion{
+    position: absolute;
+    right: 10px;
+    margin-top: 175px;
+}
+
+.slide6>.images #leaf{
+    position: absolute;
+    left: 300px;
+    margin-top: 100px;
+}
+
+.slide6>.images #fries{
+    position: absolute;
+    right: 135px;
+    margin-top: 500px;
+}
+
+.slide6>.images #burger{
+    position: absolute;
+    right: 15%;
+}
+
+.slide6>.images #mushroom{
+    position: absolute;
+    margin-top: 575px;
+    left: 0%;
+}
+
+
+/* slide 7 */
+.slide7{
+    background-image: url('assets/slide7-bg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background{
+    background-color: #f64b3c;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.slide7 .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.slide7 .quote{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: -45%;
+}
+
+.slide7 .writer{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5%;
+}
+
+
+
+/* slide 8 */
+.slide8{
+    background-color: #f6eedf;
+    color: #f64b3c;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide8 .header {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 15%;
+}
+
+.slide8 .data {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.slide8 .gmail{
+    display: flex;
+    margin-top: 5%;
+    font-size: 24px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.gmail .id{
+    width: 75%;
+    padding: 10px 30px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: white;
+    color: grey;
+}
+
+.gmail .btn{
+    width: 25%;
+    padding: 10px 30px;
+    border-radius:  0px 25px 25px 0px;
+    background-color: #f64b3c;
+    color: white;
+}
+
+
+/* slide 8 Images */
+.slide8>.images #leaf-top{
+    position: absolute;
+    left: 250px;
+    margin-top: 100px;
+}
+
+.slide8>.images #mushroom{
+    position: absolute;
+    left: 100px;
+    margin-top: 350px;
+}
+
+.slide8>.images #fries{
+    position: absolute;
+    left: 150px;
+    margin-top: 575px;
+}
+
+.slide8>.images #burger{
+    position: absolute;
+    right: 8%;
+    margin-top: 50px;
+}
+
+
+.slide8>.images #capsicum-top{
+    position: absolute;
+    margin-top: 75px;
+    left: 47%;
+}
+
+.slide8>.images #capsicum-bottom{
+    position: absolute;
+    margin-top: 625px;
+    right: 15%;
+}
+
+.slide8>.images #onion{
+    position: absolute;
+    right: 10%;
+    margin-top: 28%;
+}
+
+
+.slide8>.images #leaf-bottom{
+    position: absolute;
+    left: 45%;
+    margin-top: 650px
+}
+
+/* slide 9 */
+.footer{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.footer .left{
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .left .header{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer .left .data{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.footer .right{
+    width: 60%;
+    margin-left: 10%;
+    column-gap: 20px;
+}
+
+table, tr, td, th{
+    text-align: start;
+}
+
+.footer-table th{
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+
+
+.footer-table th:not(:first-child),
+.footer-table td:not(:first-child) {
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.media-icon img{
+    margin-right: 10px;
+    height: 3rem;
+}
