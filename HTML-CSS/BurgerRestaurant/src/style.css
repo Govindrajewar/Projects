@@ -15,7 +15,8 @@ body, .root{
 .slide4,
 .slide5,
 .slide6,
-.slide7
+.slide7,
+.slide8
 {
     height:110vh;
     width: 100%;
@@ -524,3 +525,104 @@ li{
     margin-top: 5%;
 }
 
+
+
+/* slide 8 */
+.slide8{
+    background-color: #f6eedf;
+    color: #f64b3c;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide8 .header {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 15%;
+}
+
+.slide8 .data {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.slide8 .gmail{
+    display: flex;
+    margin-top: 5%;
+    font-size: 24px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.gmail .id{
+    width: 75%;
+    padding: 10px 30px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: white;
+    color: grey;
+}
+
+.gmail .btn{
+    width: 25%;
+    padding: 10px 30px;
+    border-radius:  0px 25px 25px 0px;
+    background-color: #f64b3c;
+    color: white;
+}
+
+
+/* slide 8 Images */
+.slide8>.images #leaf-top{
+    position: absolute;
+    left: 250px;
+    margin-top: 100px;
+}
+
+.slide8>.images #mushroom{
+    position: absolute;
+    left: 100px;
+    margin-top: 350px;
+}
+
+.slide8>.images #fries{
+    position: absolute;
+    left: 150px;
+    margin-top: 575px;
+}
+
+.slide8>.images #burger{
+    position: absolute;
+    right: 8%;
+    margin-top: 50px;
+}
+
+
+.slide8>.images #capsicum-top{
+    position: absolute;
+    margin-top: 75px;
+    left: 47%;
+}
+
+.slide8>.images #capsicum-bottom{
+    position: absolute;
+    margin-top: 625px;
+    right: 15%;
+}
+
+.slide8>.images #onion{
+    position: absolute;
+    right: 10%;
+    margin-top: 28%;
+}
+
+
+.slide8>.images #leaf-bottom{
+    position: absolute;
+    left: 45%;
+    margin-top: 650px
+}
