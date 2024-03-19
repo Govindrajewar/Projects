@@ -4,11 +4,6 @@ body, .root{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.root{
-    background-color: aqua;
-}
-
-
 .slide1,
 .slide2,
 .slide3,
@@ -90,8 +85,9 @@ li{
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    width: 150px;
+    width: 300px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 
@@ -141,8 +137,7 @@ li{
 }
 
 .chef-title{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 24px;
     margin-top: 10px;
 }
 
@@ -413,6 +408,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 
 .card-item .heading{
@@ -636,7 +632,7 @@ li{
     display: flex;
     align-items: center;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer .left{
@@ -647,7 +643,7 @@ li{
 }
 
 .footer .left .header{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -669,7 +665,7 @@ table, tr, td, th{
 
 .footer-table th{
     padding-bottom: 15px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 
