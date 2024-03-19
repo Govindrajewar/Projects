@@ -382,7 +382,7 @@ li{
     height: 100vh;
     background-color: #f6eedf;
     color: #f64b3c;
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -458,7 +458,7 @@ li{
 .slide6>.images #onion{
     position: absolute;
     right: 10px;
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 .slide6>.images #leaf{
@@ -469,7 +469,7 @@ li{
 
 .slide6>.images #fries{
     position: absolute;
-    right: 100px;
+    right: 135px;
     margin-top: 500px;
 }
 
@@ -480,6 +480,6 @@ li{
 
 .slide6>.images #mushroom{
     position: absolute;
-    margin-top: 550px;
+    margin-top: 575px;
     left: 0%;
 }
