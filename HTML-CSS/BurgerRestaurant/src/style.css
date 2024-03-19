@@ -14,7 +14,8 @@ body, .root{
 .slide3,
 .slide4,
 .slide5,
-.slide6
+.slide6,
+.slide7
 {
     height:110vh;
     width: 100%;
@@ -483,3 +484,43 @@ li{
     margin-top: 575px;
     left: 0%;
 }
+
+
+/* slide 7 */
+.slide7{
+    background-image: url('assets/slide7-bg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background{
+    background-color: #f64b3c;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.slide7 .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.slide7 .quote{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: -45%;
+}
+
+.slide7 .writer{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5%;
+}
+
