@@ -16,7 +16,8 @@ body, .root{
 .slide5,
 .slide6,
 .slide7,
-.slide8
+.slide8,
+.footer
 {
     height:110vh;
     width: 100%;
@@ -625,4 +626,60 @@ li{
     position: absolute;
     left: 45%;
     margin-top: 650px
+}
+
+/* slide 9 */
+.footer{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 2rem;
+}
+
+.footer .left{
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .left .header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer .left .data{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.footer .right{
+    width: 60%;
+    margin-left: 10%;
+    column-gap: 20px;
+}
+
+table, tr, td, th{
+    text-align: start;
+}
+
+.footer-table th{
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+
+.footer-table th:not(:first-child),
+.footer-table td:not(:first-child) {
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.media-icon img{
+    margin-right: 10px;
+    height: 3rem;
 }
