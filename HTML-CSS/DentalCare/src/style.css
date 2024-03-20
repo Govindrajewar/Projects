@@ -34,3 +34,71 @@ body, .root{
 ul{
     list-style-type: none;
 }
+
+
+
+/* slide 1 */
+.slide1{
+    /* height: 100vh; */
+    background-color: #f1e8e5;
+    display: flex;
+}
+
+.left img{
+    border-radius: 0px 75% 0px 0px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #5366c9;
+    margin-top: 190px;
+    margin-left: 100px;
+}
+
+.right .header{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 4rem;
+}
+
+.right .details{
+    font-size: 14px;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+
+.reg-btn{
+    background-color: #5366c9;
+    color: #f1e8e5;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right .circle{
+    position: absolute;
+    right: 75px;
+    bottom: -150px;
+}
+
+.right .hollow{
+    position: absolute;
+    right: 0px;
+    bottom: -150px;
+}
+
+.slide1 .star {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    height: 10rem;
+}
+
