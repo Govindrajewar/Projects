@@ -150,3 +150,43 @@ ul{
     transform: translate(-50%);
     margin-top: 350px;
 }
+
+
+/* slide 3 */
+.slide3{
+    height: 120vh;
+    width: 100%;
+
+    background-image: url('assets/slide3-bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide3  .background{
+    width: 50%;
+    height: 100%;
+    color: blue;
+    background-color: rgba(228,219,218,255);
+    opacity: 0.5;
+}
+
+.slide3 .content{
+    display: flex;
+    flex-direction: column;
+    color: #5366c9;
+
+    position: absolute;
+    top: 265%;
+    left: 15%;
+}
+
+.slide3 .content .header{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slide3 .details{
+    width: 25%;
+    line-height: 2rem;
+    margin-top: 20px;
+}
