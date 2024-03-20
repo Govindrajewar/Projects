@@ -39,7 +39,6 @@ ul{
 
 /* slide 1 */
 .slide1{
-    /* height: 100vh; */
     background-color: #f1e8e5;
     display: flex;
 }
@@ -102,3 +101,52 @@ ul{
     height: 10rem;
 }
 
+
+/* slide 2 */
+.slide2{
+    height: 100vh;
+    width: 100%;
+
+    background-color: aquamarine;
+}
+
+.slide2 .content{
+    background-color: #5366c9;
+    color: white;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide2 .header{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.slide2 .details {
+    line-height: 1.5rem;
+}
+
+#read-more{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.slide2 .down-arrow{
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 350px;
+}
