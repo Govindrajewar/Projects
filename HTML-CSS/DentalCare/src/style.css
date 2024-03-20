@@ -1,0 +1,36 @@
+body, .root{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.root{
+    background-color: #f1e8e5;
+}
+
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 40px;
+}
+
+.menu{
+    width: 60%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    color: #5366c9;
+    background-color: #f1e8e5;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
