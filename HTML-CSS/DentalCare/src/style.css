@@ -413,3 +413,43 @@ ul{
     font-size: 30px;
 }
 
+
+/* slide 9 */
+.slide9{
+    height: 120vh;
+    width: 100%;
+    background-image: url('assets/slide9-bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide9 .title{
+    font-size: 100px;
+    color: #5366c9;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+
+.slide9 .details{
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #5366c9;
+    color: white;
+}
+
+.slide9 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
