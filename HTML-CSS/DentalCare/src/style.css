@@ -190,3 +190,47 @@ ul{
     line-height: 2rem;
     margin-top: 20px;
 }
+
+
+/* slide 4 */
+.slide4{
+    height: 120vh;
+    width: 100%;
+    background-image: url('assets/slide4-bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide4 .background{
+    width: 41%;
+    height: 100%;
+    background-color: rgba(228,219,218,255);
+    opacity: 0.5;
+
+    float: right;
+}
+
+.slide4 .content{
+    position: absolute;
+    right: 10%;
+    top: 375%;
+    color: #5366c9;
+    text-align: center;
+}
+
+.slide4 .content .header{
+    font-size: 125px;
+    font-weight: bold;
+}
+
+.discover-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 60%;
+    background-color: #5366c9;
+    color: #e7dfe3;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
