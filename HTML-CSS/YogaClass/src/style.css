@@ -1,0 +1,100 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f9f4;
+}
+
+.root{
+    width: 100%;
+    background-color: #f2f9f4;
+    color: #509995;
+}
+
+
+/* Navigation Bar */
+.nav-bar .logo{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: #8fd8c5;
+    padding-top: 20px;
+    height: 100px;
+}
+
+
+.nav-bar{
+    width: 100%;
+    background-color: #deeee8;
+    margin-top: 40px;
+}
+
+.nav-bar .list{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 40%;
+}
+
+.nav-bar li{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-bar li:hover{
+    background-color: #c0dad6;
+}
+
+
+/* slide 1 */
+.slide1{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+}
+
+.slide1 #yoga1-img{
+    border: 5px solid #b7d3cf;
+    border-radius: 50%;
+    position: absolute;
+    top: 235px;
+    left: 140px;
+}
+
+
+.slide1 .right{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 225px;
+}
+
+
+.slide1 .right .header{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+.slide1 .right .details{
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+    margin-top: 25px;
+}
+
+.slide1 .right .join-btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #509995;
+    color: #fefefc;
+    text-align: center;
+    margin-top: 50px;
+    width: 125px;
+    border-radius: 10px;
+}
