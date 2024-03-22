@@ -229,6 +229,61 @@ body{
     font-size: 75px;
 }
 
-#data-item-2, #data-item-3{
+.slide3 #data-item-2, #data-item-3{
     font-weight: bold;
 }
+
+
+/* slide 4 */
+.slide4{
+    height: 150vh;
+    width: 100%;
+    background-color: #509995;
+    color: #f2f9f4;
+
+    display: flex;
+}
+
+.slide4 .left{
+    width: 40%;
+}
+
+.slide4 .right{
+    width: 50%;
+    background-image: url('assets/slide4-right-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide4 .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.slide4 .left .header{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.slide4 .left .details{
+    font-size: 38px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.slide4 .left .read-more-btn{
+    background-color: #f2f9f4;
+    color: #509995;
+    width: fit-content;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
