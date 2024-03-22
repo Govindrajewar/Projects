@@ -287,3 +287,61 @@ body{
     cursor: pointer;
 }
 
+
+/* slide 5 */
+.slide5{
+    background-color: #f2f9f4;
+    color: #509995;
+
+    height: 120vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.slide5 .left, .slide5 .right{
+    width: 50%;
+}
+
+.slide5 .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide5 img{
+    height: 700px;
+}
+
+.slide5 .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.slide5 .right .header{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.slide5 .right .details{
+    font-size: 38px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.slide5 .right .read-more-btn-2{
+    background-color: #509995;
+    color: #f2f9f4;
+    width: fit-content;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+
