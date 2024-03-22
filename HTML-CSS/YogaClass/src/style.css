@@ -98,3 +98,79 @@ body{
     width: 125px;
     border-radius: 10px;
 }
+
+
+/* slide 2 */
+.slide2 .right-side-img{
+    position: absolute;
+    right: 0px;
+    top: 610px;
+}
+
+.slide2{
+    height: 130vh;
+    width: 100%;
+    background-color: #509995;
+    color: #f2f9f4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide2 .bg-image{
+    /* transform: scaleX(-1); */
+    margin-top: 25px;
+    height: 425px;
+}
+
+.cards{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.card-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.slide2 .header {
+    font-size: 70px;
+    margin-top: 75px;
+}
+
+.slide2 .details{
+    width: 45%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.slide2 .card-item .header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slide2 .card-item .details{
+    font-size: 20px;
+}
+
+.slide2 .card-details .card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.slide2 .card-item img{
+    border-radius: 50%;
+    height: 20rem;
+}
+
+.slide2 .card-details{
+    position: absolute;
+    margin-top: 350px;
+}
+
