@@ -344,4 +344,80 @@ body{
     cursor: pointer;
 }
 
+.slide5 .right #slide5-right-img{
+    position: absolute;
+    right: 0px;
+    height: 1000px;
+    margin-top: -300px;
+}
+
+
+/* slide 6 */
+.slide6{
+    height: 120vh;
+    width: 100%;
+    background-color: #509995;
+    color: #f2f9f4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slide6 .header{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.slide6 .details {
+    font-size: 38px;
+    width: 60%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.slide6 .cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.slide6 .card-item{
+    background-color: #f2f9f4;
+    color: #509995;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.slide6 .cards .card-item .card-header,
+.slide6 .cards .card-item .card-price
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.slide6 .card-item .card-data{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.slide6 .card-item .card-register-btn{
+    background-color: #509995;
+    color: #f2f9f4;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 75%;
+    cursor: pointer;
+}
 
