@@ -107,7 +107,9 @@ ul{
     height: 100vh;
     width: 100%;
 
-    background-color: aquamarine;
+    background-image: url('assets/slide2-bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slide2 .content{
