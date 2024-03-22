@@ -421,3 +421,49 @@ body{
     cursor: pointer;
 }
 
+
+/* slide 7 */
+.slide7{
+    color: #509995;
+    height: 140vh;
+    width: 100%;
+    background-image: url('assets/slide7-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide7 .trainer-image{
+    height: 425px;
+    width: 425px;
+
+    background-image: url('assets/slide7-icon-bg-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.slide7 .trainer-details{
+    font-size: 50px;
+    width: 70%;
+    text-align: center;
+}
+
+.slide7 .trainer-name{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.slide7 #trainer-image-id{
+    border-radius: 50%;
+    border: 5px solid #509995;
+}
+
